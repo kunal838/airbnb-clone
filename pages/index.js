@@ -6,11 +6,11 @@ import LargeCard from "../components/LargeCard";
 import MediumCard from "../components/MediumCard";
 import SmallCard from "../components/SmallCard";
 
-export default function Home({ exploreData ,cardsData}) {
+export default function Home({ exploreData, cardsData }) {
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Airbnb-clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -38,27 +38,21 @@ export default function Home({ exploreData ,cardsData}) {
           <h2 className="text-4xl font-semibold py-6">Live Anyway</h2>
 
           <div className="flex space-x-3 overflow-scroll p-3 ml-3 ">
-          {cardsData?.map(item =>(
-            <MediumCard key={item.id} img={item.img} title={item.title}/>
-          ))}
+            {cardsData?.map((item) => (
+              <MediumCard key={item.id} img={item.img} title={item.title} />
+            ))}
           </div>
         </section>
 
         <LargeCard
-        img="https://links.papareact.com/4cj"
-        title="The Greatest Outdoors"
-        description="Wishlist created by Airbnb"
-        buttonText="Get Inspired"
+          img="https://links.papareact.com/4cj"
+          title="The Greatest Outdoors"
+          description="Wishlist created by Airbnb"
+          buttonText="Get Inspired"
         />
-
-
       </main>
 
-
-
-
-
-      <Footer/>
+      <Footer />
     </div>
   );
 }
@@ -66,15 +60,14 @@ export async function getStaticProps() {
   const exploreData = await fetch("https://links.papareact.com/pyp").then(
     (res) => res.json()
   );
-  const cardsData = await fetch("https://links.papareact.com/zp1").then(
-    (res) => res.json()
+  const cardsData = await fetch("https://links.papareact.com/zp1").then((res) =>
+    res.json()
   );
-  
 
   return {
     props: {
       exploreData,
-      cardsData
+      cardsData,
     },
   };
 }
