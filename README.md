@@ -1,29 +1,93 @@
-# Next.js + Tailwind CSS Example
+<p align="center">
+  <a href="https://nextjs.org">
+    <img src="https://ideas.byteridge.com/content/images/size/w2000/2020/08/nextjs-image.jpeg" height="200">
+    <h1 align="center">Next.Js</h1>
+  </a>
+</p>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+ 
+<p align="center">
+  <a href="https://nextjs.org/">
+    <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+  </a>
+     <a href="https://redux-toolkit.js.org/">
+    <img  src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white">
+  </a>
+    <a aria-label="Vercel logo" href="https://reactjs.org/">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  </a>
+<a aria-label="NPM version" href="https://firebase.google.com/">
+     <img src="https://img.shields.io/badge/firebase V9-ffca28?style=for-the-badge&logo=firebase&logoColor=black">
+  </a>
+    <a href="https://www.framer.com/motion/">
+   <img src="https://img.shields.io/badge/Framer%20motion-black?style=for-the-badge&logo=framer&logoColor=white"/>
+  </a>
+ 
+  <a aria-label="Vercel logo" href="https://www.javascript.com/">
+    <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+  </a>
+  <a aria-label="NPM version" href="https://www.npmjs.com/">
+    <img alt="" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
+  </a>
+  
+   <a aria-label="NPM version" href="https://www.w3schools.com/css/">
+    
+  </a>
+  
+</p>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
 
-## Preview
+# Project Name : Airbnb clone
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+Frontend clone of Airbnb 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+# Technologies
 
-## Deploy your own
+- Next.Js
+- React.Js
+- Npm
+- JavaScript 
+- tailwind
+- Visual Studio Code
+- Git & GitHub<br/>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+# How it look's
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+ 
 
-## How to use
+# Some important information about Next.Js
+## Getting Started
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+First, run the development server:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+npm run dev
 # or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+yarn dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Important 
+  change .env.example to .env.local and add your id and secret and all.
+  
+# Deploy
+   Link - https://instagram-clone-khaki-sigma.vercel.app/
+   this will till firebase rule date.
+
+# Thanks for visiting🤗
