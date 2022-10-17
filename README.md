@@ -13,6 +13,7 @@
      <a href="https://redux-toolkit.js.org/">
     <img  src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white">
   </a>
+  
     <a aria-label="Vercel logo" href="https://reactjs.org/">
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   </a>
@@ -86,8 +87,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Important 
   change .env.example to .env.local and add your id and secret and all.
   
-# Deploy
-   Link - https://instagram-clone-khaki-sigma.vercel.app/
-   this will till firebase rule date.
 
-# Thanks for visiting🤗
+# Thanks you for visiting !!!!!!
