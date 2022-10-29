@@ -88,5 +88,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
   change .env.example to .env.local and add your id and secret and all.
   
 #Thank you!!!!
-# Thanks you for visiting !!!!!!
-# HAPPY HACKING
+!!!!!!!!!!!!!!
